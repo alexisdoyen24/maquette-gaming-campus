@@ -1,0 +1,33 @@
+nav ul{
+    @include flex;
+
+    li{
+        margin: 1rem;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+    }
+}
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    h1{
+        font-weight: 100;
+        opacity: 0.4;
+        margin-bottom: 2rem;
+    }
+    
+    a{
+        color: white;
+    }
+
+    .video{
+        padding-bottom: 2rem;
+    }
+}
+
