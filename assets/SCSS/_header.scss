@@ -27,7 +27,17 @@ nav ul{
     }
 
     .video{
-        padding-bottom: 2rem;
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+        
+        a{
+            border: white solid 1px;
+            padding: 0.8rem;
+        }
+        a:hover{
+            color: blueviolet;
+            border: blueviolet solid 2px;
+        }
     }
 }
 

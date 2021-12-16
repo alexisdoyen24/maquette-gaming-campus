@@ -40,7 +40,58 @@ nav ul li a:hover {
   color: white;
 }
 .title .video {
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+.title .video a {
+  border: white solid 1px;
+  padding: 0.8rem;
+}
+.title .video a:hover {
+  color: blueviolet;
+  border: blueviolet solid 2px;
+}
+
+#presentation {
+  margin: 2rem 6rem;
+  text-align: center;
+}
+#presentation h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#prestation {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#prestation h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+#prestation p {
+  margin-bottom: 1rem;
+}
+#prestation .button {
+  width: 9rem;
+  margin: auto;
+}
+#prestation .button a {
+  color: white;
+  border: solid 1px white;
+  padding: 0.3rem 0.8rem;
+}
+#prestation .button a:hover {
+  color: blueviolet;
+  border: blueviolet solid 2px;
+}
+#prestation .card {
+  margin: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
