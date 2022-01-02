@@ -1,0 +1,48 @@
+nav ul{
+    @include flex;
+    flex-wrap: wrap;
+
+    li{
+        margin: 1rem;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+    }
+}
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    .hiddenTitle{
+        display: none;
+    }
+
+    h1{
+        font-weight: 100;
+        opacity: 0.4;
+        margin-bottom: 2rem;
+    }
+    
+    a{
+        color: white;
+    }
+
+    .video{
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+        
+        a{
+            border: white solid 1px;
+            padding: 0.8rem;
+        }
+        a:hover{
+            color: blueviolet;
+            border: blueviolet solid 2px;
+        }
+    }
+}
+

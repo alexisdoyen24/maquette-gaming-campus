@@ -1,0 +1,56 @@
+#presentation{
+    margin: 2rem 6rem;
+    text-align: center;
+
+    h2{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+#prestation{
+    background-color: black;
+    color: white;
+    text-align: center;
+    @include flex;
+    flex-wrap: wrap;
+
+    h2{
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
+    .button{        
+        width: 9rem;
+        margin: auto;
+        
+        a{
+            color: white;
+            border: solid 1px white;
+            padding: 0.3rem 0.8rem;
+        }
+        a:hover{
+            color: blueviolet;
+            border: blueviolet solid 2px;
+        }
+    }
+
+    .card{
+        margin: 3rem;
+        width: 25%;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+// SECTION NEWS------
+
+.news{
+    .newsButton{
+        
+    }
+}

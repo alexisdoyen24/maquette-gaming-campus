@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "roboto";
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 1rem;
+}
+nav ul li a {
+  color: black;
+}
+nav ul li a:hover {
+  color: blueviolet;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.title .hiddenTitle {
+  display: none;
+}
+.title h1 {
+  font-weight: 100;
+  opacity: 0.4;
+  margin-bottom: 2rem;
+}
+.title a {
+  color: white;
+}
+.title .video {
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+.title .video a {
+  border: white solid 1px;
+  padding: 0.8rem;
+}
+.title .video a:hover {
+  color: blueviolet;
+  border: blueviolet solid 2px;
+}
+
+#presentation {
+  margin: 2rem 6rem;
+  text-align: center;
+}
+#presentation h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#prestation {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#prestation h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+#prestation p {
+  margin-bottom: 1rem;
+}
+#prestation .button {
+  width: 9rem;
+  margin: auto;
+}
+#prestation .button a {
+  color: white;
+  border: solid 1px white;
+  padding: 0.3rem 0.8rem;
+}
+#prestation .button a:hover {
+  color: blueviolet;
+  border: blueviolet solid 2px;
+}
+#prestation .card {
+  margin: 3rem;
+  width: 25%;
+}
+#prestation .card img {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .titleImg {
+    display: none;
+  }
+
+  .title .hiddenTitle {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  nav ul li {
+    margin: 0.5rem;
+  }
+  nav ul li a {
+    color: black;
+  }
+  nav ul li a:hover {
+    color: blueviolet;
+  }
+}
+@media screen and (max-width: 600px) {
+  #prestation {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #prestation .card {
+    width: 70%;
+    margin: 1.5rem;
+  }
+
+  .title .hiddenTitle img {
+    width: 375px;
+  }
+
+  #presentation {
+    margin: 1rem 2rem;
+    text-align: center;
+  }
+  #presentation h2 {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
